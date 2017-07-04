@@ -1,0 +1,9 @@
+drop table crude_history;
+drop table zinc_history;
+create table aluminium (dt date,last_price float,last_price_inr float,high_price float,low_price float);
+create table copper (dt date,last_price float,last_price_inr float,high_price float,low_price float);
+create table gold (dt date,last_price float,last_price_inr float,high_price float,low_price float);
+create table ngas (dt date,last_price float,last_price_inr float,high_price float,low_price float);
+create table nickel (dt date,last_price float,last_price_inr float,high_price float,low_price float);
+create table silver (dt date,last_price float,last_price_inr float,high_price float,low_price float);
+
