@@ -102,7 +102,7 @@ function amazon($queryString)
 
 	// Your AWS Access Key ID, as taken from the AWS Your Account page
 
-	$aws_access_key_id = "AKIAJDHZFRSPXGTQETKQ";
+	$aws_access_key_id = "";
 
 	// Your AWS Secret Key corresponding to the above ID, as taken from the AWS Your Account page
 
@@ -115,7 +115,7 @@ function amazon($queryString)
 	$params = array(
 		"Service" => "AWSECommerceService",
 		"Operation" => "ItemSearch",
-		"AWSAccessKeyId" => "AKIAJDHZFRSPXGTQETKQ",
+		"AWSAccessKeyId" => "",
 		"AssociateTag" => "bazaaraja-21",
 		"SearchIndex" => "All",
 		"ResponseGroup" => "Images,ItemAttributes",
@@ -199,11 +199,11 @@ function getPrice($param)
 
 	// Your AWS Access Key ID, as taken from the AWS Your Account page
 
-	$aws_access_key_id = "AKIAJDHZFRSPXGTQETKQ";
+	$aws_access_key_id = "";
 
 	// Your AWS Secret Key corresponding to the above ID, as taken from the AWS Your Account page
 
-	$aws_secret_key = "Jm1aSpOnyI7yt4j2e9Il4oKhI1zhPUp/mXgXuwoe";
+	$aws_secret_key = "";
 
 	// The region you are interested in
 
@@ -215,7 +215,7 @@ function getPrice($param)
 		"ResponseGroup" => "Offers",
 		"IdType" => "ASIN",
 		"ItemId" => "$param",
-		"AWSAccessKeyId" => "AKIAJDHZFRSPXGTQETKQ",
+		"AWSAccessKeyId" => "",
 		"AssociateTag" => "bazaaraja-21"
 	);
 
